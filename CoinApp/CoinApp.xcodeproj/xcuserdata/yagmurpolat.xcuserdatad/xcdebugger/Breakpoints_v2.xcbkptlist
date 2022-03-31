@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "066B30DC-0737-4801-8CD0-5B4BFF903FB2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A352425-59E8-4F33-A69E-C9C89F5EE213"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinApp/Controller/Home Page Controller/HomePageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4A352425-59E8-4F33-A69E-C9C89F5EE213 - c484b8163b512755"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;CoinApp.Coins, CoinApp.CoinError&gt;) -&gt; () in CoinApp.HomePageViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "CoinApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagmurpolat/swift/Homeworks/CoinApp/CoinApp/Controller/Home%20Page%20Controller/HomePageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "4A352425-59E8-4F33-A69E-C9C89F5EE213 - c484b8163b512755"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;CoinApp.Coins, CoinApp.CoinError&gt;) -&gt; () in CoinApp.HomePageViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "CoinApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagmurpolat/swift/Homeworks/CoinApp/CoinApp/Controller/Home%20Page%20Controller/HomePageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF34445F-B633-4F6E-8C85-DECF6F6063D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinApp/Controller/Coin Details Page Controller/DetailTableViewHeader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "loadViewFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "283F6AF7-5CB4-42F3-A4CB-B0AF83FC90D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoinApp/Controller/Coin Details Page Controller/CoinDetailTableHeaderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "CoinDetailTableHeaderView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "283F6AF7-5CB4-42F3-A4CB-B0AF83FC90D6 - 5179540542e790c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoinApp.CoinDetailTableHeaderView.highPriceLbl.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "CoinApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagmurpolat/swift/Homeworks/CoinApp/CoinApp/Controller/Coin%20Details%20Page%20Controller/CoinDetailTableHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "283F6AF7-5CB4-42F3-A4CB-B0AF83FC90D6 - 9ec38ea55a2dfcd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoinApp.CoinDetailTableHeaderView.highPriceLbl.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "CoinApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagmurpolat/swift/Homeworks/CoinApp/CoinApp/Controller/Coin%20Details%20Page%20Controller/CoinDetailTableHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "283F6AF7-5CB4-42F3-A4CB-B0AF83FC90D6 - caac7edc9631ffc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoinApp.CoinDetailTableHeaderView.highPriceLbl.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "CoinApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagmurpolat/swift/Homeworks/CoinApp/CoinApp/Controller/Coin%20Details%20Page%20Controller/CoinDetailTableHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "283F6AF7-5CB4-42F3-A4CB-B0AF83FC90D6 - 2a21554b0f4f8a00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoinApp.CoinDetailTableHeaderView.highPriceLbl.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CoinApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagmurpolat/swift/Homeworks/CoinApp/CoinApp/Controller/Coin%20Details%20Page%20Controller/CoinDetailTableHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "283F6AF7-5CB4-42F3-A4CB-B0AF83FC90D6 - a1d022ddfd82cea9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoinApp.CoinDetailTableHeaderView.init(frame: __C.CGRect) -&gt; CoinApp.CoinDetailTableHeaderView"
+                  moduleName = "CoinApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagmurpolat/swift/Homeworks/CoinApp/CoinApp/Controller/Coin%20Details%20Page%20Controller/CoinDetailTableHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "283F6AF7-5CB4-42F3-A4CB-B0AF83FC90D6 - 1c772868446b26ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoinApp.CoinDetailTableHeaderView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CoinApp.CoinDetailTableHeaderView&gt;"
+                  moduleName = "CoinApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagmurpolat/swift/Homeworks/CoinApp/CoinApp/Controller/Coin%20Details%20Page%20Controller/CoinDetailTableHeaderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "268">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
