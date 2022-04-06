@@ -23,6 +23,24 @@ class HomePageViewController: UIViewController {
     
     let coinRequest = CoinRequest()
     
+    enum DropDownType: Int, CaseIterable {
+        case price = 0
+        case marketCap
+        case vol24h
+        case change
+        case listedAt
+        
+        var text: String {
+            switch self {
+            case .price: return "Price"
+            case .marketCap: return "Market Cap"
+            case .vol24h: return "24h Vol"
+            case .change: return "Change"
+            case .listedAt: return "Listed At"
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,28 +62,30 @@ class HomePageViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.coinCollectionView!.register(UINib(nibName: "CoinCell", bundle: nil), forCellWithReuseIdentifier: "coinCell")
         
-        dropDown.optionArray = ["Price", "Market Cap", "24h Vol", "Change", "Listed At"]
+        dropDown.optionArray = DropDownType.allCases.compactMap{ type in
+            return type.text
+        }
         dropDown.text = "Filter"
         dropDown.didSelect { [self] selectedText, index, id in
             print(selectedText)
-            switch index {
-            case 0:
+            switch DropDownType(rawValue: index) {
+            case .price:
                 coins.sort {
                     Double($0.price)! > Double($1.price)!
                 }
-            case 1:
+            case .marketCap:
                 coins.sort {
                     Double($0.marketCap)! > Double($1.marketCap)!
                 }
-            case 2:
+            case .vol24h:
                 coins.sort {
                     Double($0.the24HVolume)! > Double($1.the24HVolume)!
                 }
-            case 3:
+            case .change:
                 coins.sort {
                     Double($0.change)! > Double($1.change)!
                 }
-            case 4:
+            case .listedAt:
                 coins.sort {
                     $0.listedAt! > $1.listedAt!
                 }
@@ -77,7 +97,6 @@ class HomePageViewController: UIViewController {
         }
         
     }
-    
     
 }
 
